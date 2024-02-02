@@ -1,0 +1,521 @@
+/* ---------------------------------------Media screen 320-------------------------------- */
+
+@media screen and (min-width: 320px) {
+    /* .container {
+        max-width: 288px;
+    } */
+
+    /* Hero */
+
+    /* .hero-title {
+        font-size: 36px;
+        margin-bottom: 76px;
+        width: 200px;
+    } */
+
+    /* .hero-btn {
+        min-width: 169px;
+        height: 56px;
+    } */
+
+    /* section 2 What we do */
+
+    /* .what-we-do {
+        padding: 96px 16px;
+    } */
+
+    /* .what-we-do-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        gap: 72px;
+    }
+
+    .what-we-do-item {
+        width: 100%;
+    } */
+
+    /* .what-we-do-item-block {
+        display: none;
+    } */
+
+    /* .what-we-do-subtitle {
+        font-size: 36px;
+        text-align: center;
+    } */
+
+    /* section 3 Our-team */
+
+    /* .our-team {
+        padding: 96px 16px;
+    } */
+
+    /* .our-team > .container {
+    max-width: 288px;
+    } */
+
+    /* .our-team-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        row-gap: 72px;
+    } */
+
+    /* .our-team-item {
+        width: 100%;
+    } */
+
+    /* .our-team-item-container {
+        width: 100%;
+        padding: 32px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    } */
+
+    /* Section 4 Our portfolio */
+
+    /* .our-portfolio {
+        padding: 96px 0 72px 0;
+    } */
+
+    /* .our-portfolio-list {
+        display: flex;
+        width: 288px;
+        padding-bottom: 32px;
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+    /* .our-portfolio-item {
+        width: 100%;
+    } */
+
+    /* .our-portfolio-item-container {
+        padding: 32px 0;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    } */
+}
+
+/* ----------------------------Media screen 768-------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    /* Header */
+    .header {
+        padding: 0;
+    }
+
+    .header-menu-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-nav {
+        justify-content: start;
+    }
+
+    .header-logo {
+        margin-right: 105px;
+    }
+
+    .header-address-list {
+        color: #434455;
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+    }
+
+    .mob-menu,
+    .menu-open-btn {
+        display: none;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+    /* Section 1 */
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/tab-hero-bkg.jpg);
+        max-width: 768px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        .hero-container {
+            background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
+                url(./images/2x-tab-hero-bkg.jpg);
+        }
+    }
+
+    .hero-title {
+        width: 496px;
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+    }
+
+    /* section 2 What we do */
+    .what-we-do {
+        padding: 96px 0;
+    }
+
+    .what-we-do > .container {
+        max-width: 768px;
+    }
+
+    .what-we-do-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .what-we-do-subtitle {
+        text-align: left;
+    }
+
+    .what-we-do-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    /* section 3 Our-team */
+
+    .our-team {
+        padding: 96px 96px;
+        background-color: #f4f4fd;
+    }
+
+    .our-team-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .our-team-item {
+        width: calc((100% - 24px) / 2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-team-item-container {
+        padding: 32px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    /* Section 4 Our portfolio */
+
+    .our-portfolio {
+        padding: 96px 0 96px 0;
+    }
+    .our-portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 32px;
+    }
+
+    .our-portfolio-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    /*Footer*/
+
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .footer-container {
+        align-items: baseline;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+    .container.footer-container {
+        /* width: auto; */
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .logo-text {
+        /* margin-right: 120px; */
+    }
+
+    .footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+
+        text-align: left;
+    }
+
+    .footer-logo-span {
+        color: #f4f4fd;
+    }
+
+    .footer-text {
+        max-width: 264px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-weight: 500;
+        margin-bottom: 16px;
+        color: #ffffff;
+        line-height: 1.5;
+    }
+
+    .footer-social-media-text {
+        /* padding-bottom: 16px; */
+        margin-bottom: 16px;
+        color: #ffffff;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        font-weight: 500;
+
+        text-align: left;
+    }
+
+    .footer-social-media-icons {
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-form {
+        display: flex;
+        align-items: left;
+        gap: 24px;
+
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-social-media-icons .our-team-list-icon-bckg:hover,
+    .footer-social-media-icons .our-team-list-icon-bckg:focus {
+        background-color: #31d0aa;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ------------Modal------------- */
+    .modal {
+        width: 408px;
+        min-height: 584px;
+    }
+}
+
+/* --------------------------Media screen 1158--------------------------------------- */
+
+@media screen and (min-width: 1158px) {
+    /* Header */
+    .header {
+        padding: 0;
+    }
+
+    .header-address-list {
+        flex-direction: row;
+    }
+
+    .mob-menu,
+    .menu-open-btn {
+        display: none;
+    }
+
+    .container {
+        max-width: 1158px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-bkg.jpg);
+
+        max-width: 1440px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        .hero-container {
+            background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
+                url(./images/2x-hero-bkg.jpg);
+        }
+    }
+
+    .hero-title {
+        width: 496px;
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+    }
+
+    /* section 2 What we do */
+    .what-we-do {
+        padding: 120px 0;
+    }
+
+    .what-we-do > .container {
+        max-width: 1158px;
+    }
+
+    .what-we-do-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+
+        gap: 24px;
+    }
+    .what-we-do-item-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+        height: 112px;
+    }
+
+    .what-we-do-subtitle {
+        text-align: left;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .what-we-do-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /* section 3 Our-team */
+
+    .our-team {
+        padding: 120px 0 120px 0;
+    }
+    .our-team-list {
+        gap: 48px 24px;
+    }
+    .our-team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /* Section 4 Our portfolio */
+
+    .our-portfolio {
+        padding: 120px 0 120px 0;
+    }
+    .our-portfolio-list {
+        gap: 48px 24px;
+    }
+    .our-portfolio-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    /*Footer*/
+
+    .footer {
+        display: flex;
+        padding: 100px 0;
+        background-color: #2e2f42;
+        color: #f4f4fd;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    }
+    .container.footer-container {
+        width: 100%;
+        max-width: 1158px;
+        margin: 0 auto;
+        /* padding-left: 156px; */
+    }
+    .logo-text {
+        margin-right: 32px;
+    }
+
+    .footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+
+        text-align: left;
+    }
+
+    .footer-logo-span {
+        color: #f4f4fd;
+    }
+
+    .footer-text {
+        max-width: 264px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-weight: 500;
+        margin-bottom: 16px;
+        color: #ffffff;
+        line-height: 1.5;
+    }
+
+    .footer-social-media-text {
+        /* padding-bottom: 16px; */
+        margin-bottom: 16px;
+        color: #ffffff;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        font-weight: 500;
+
+        text-align: left;
+    }
+
+    .footer-social-media-icons {
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-social-media-icons .our-team-list-icon-bckg:hover,
+    .footer-social-media-icons .our-team-list-icon-bckg:focus {
+        background-color: #31d0aa;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .footer-subscribe-block {
+        margin-left: auto;
+        align-items: center;
+    }
+    .footer-form {
+        display: flex;
+        /* align-items: left; */
+        gap: 24px;
+        flex-direction: row;
+    }
+}
