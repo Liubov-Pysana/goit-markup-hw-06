@@ -11,7 +11,6 @@ a {
 }
 
 section {
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -344,8 +343,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 188px 0;
-    /* max-width: 1440px; */
+    padding: 72px 0;
     max-width: 320px;
 }
 
@@ -410,7 +408,7 @@ img {
 /* Section 2 */
 .what-we-do {
     /* padding: 120px 0; */
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .what-we-do-list {
@@ -477,7 +475,7 @@ img {
     /* padding-top: 120px;
     padding-bottom: 120px; */
 
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .our-team-title {
@@ -492,19 +490,12 @@ img {
 }
 
 .our-team-list {
-    /* display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    row-gap: 72px; */
-
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
     /* width: 288px; */
-    padding-bottom: 32px;
+
     flex-direction: column;
 }
 
@@ -621,7 +612,6 @@ img {
     row-gap: 48px;
 
     width: 288px;
-    padding-bottom: 32px;
     flex-direction: column;
     /* align-items: flex-start; */
 }
@@ -849,7 +839,7 @@ img {
 .is-open {
     opacity: 0;
     visibility: visible;
-    pointer-events: auto;
+    pointer-events: none;
 }
 
 .modal {
